@@ -2,6 +2,7 @@ import { Component } from "react";
 import Swal from "sweetalert2";
 import { Buffer } from "buffer";
 import axios from "axios";
+import React from "react";
 
 const encodeNumber = (str) => {
   const code = Buffer.from(str, "utf-8")
